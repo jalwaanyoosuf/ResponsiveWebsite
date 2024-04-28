@@ -91,9 +91,7 @@ section{
 	border-radius: 90px;
 }
 .icons{
-	position: absolute;
-	top: 70%;
-	padding: 0 24%;
+	margin-top: 10px;
 }
 #insta{
 	color: rgb(225, 52, 248);
@@ -121,10 +119,6 @@ section{
 		padding-top: 33px;
 		transition: .2s;
 	}
-	.icons{
-		padding: 0 25%;
-		transition: .2s;
-	}
 }
 @media(max-width: 1180px){
 	hsection{
@@ -132,11 +126,7 @@ section{
 		padding-top: 33px;
 		transition: .2s;
 	}
-	.icons{
-		padding: 0 25%;
-		transition: .2s;
-		margin-top: 3%;
-	}
+
 	.hero-img,img{
 		width: 100%;
 		height: auto;
@@ -158,11 +148,6 @@ section{
 		font-size: 64px;
 		font-weight: 400;
 		color: cornflowerblue;
-	}
-	.icons{
-		padding: 0 25%;
-		transition: .2s;
-		margin-top: 5%;
 	}
 	.hero-img,img{
 		width: 110%;
@@ -189,11 +174,7 @@ section{
 	.hero-text,p{
 		font-size: 15px;
 	}
-	.icons{
-		padding: 0 25%;
-		transition: .2s;
-		margin-top: 5%;
-	}
+
 }
 @media(max-width: 700px){
 	header{
@@ -206,11 +187,6 @@ section{
 		font-weight: 400;
 		padding-top: 15%;
 		color: cornflowerblue;
-	}
-	.icons{
-		padding: 0 25%;
-		transition: .2s;
-		margin-top: 5%;
 	}
 	.hero-img,img{
 		width: 120%;
@@ -290,9 +266,6 @@ section{
 	}
 }
 @media(max-width: 450px){
-	.icons {
-		top: 50%;
-	}
 	.hero-img,img{
 		width: 100%;
 		height: auto;
@@ -331,7 +304,6 @@ section{
 	}
 }
 @media(max-width: 400px){
-	.icons {
-		top: 60%;
-	}
+	
 }
+
