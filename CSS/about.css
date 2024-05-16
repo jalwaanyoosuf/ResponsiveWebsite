@@ -294,6 +294,26 @@ section{
 	#menu-icon:hover{
 		color: deeppink;
 	}
+	@media(max-height: 1000px){
+	.navbar{
+		height: 25vh;
+	}
+}
+@media(max-height: 800px){
+	.navbar{
+		height: 30vh;
+	}
+}
+@media(max-height: 700px){
+	.navbar{
+		height: 35vh;
+	}
+}
+@media(max-height: 600px){
+	.navbar{
+		height: 45vh;
+	}
+}
 }
 @media(max-width: 450px){
 	.icons {
